@@ -9,20 +9,9 @@
   font-style: normal;
 }
 
-body{
-    display:flex;
-    justify-content: center;
-}
-
 main {
-  color: white;
   z-index: 99;
   position: absolute;
-  width: 75%;
-  display:flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
 }
 
 h1, h2, h3, blockquote {
@@ -36,31 +25,4 @@ h1, h2, h3, blockquote {
   top: 0;
   left: 0;
 }
-.main{
-    flex-direction: column;
-    width: 100%;
-}
-main canvas {
-  background-color: white;
-  border-radius: 20px;
-  margin-bottom: 1em;
-  margin-left: 5em;
-}
 
-.button {
-  width: 100%;
-  padding: 1em;
-  border: none;
-  border-radius: 10px;
-  margin-bottom: 1em;
-  font-size: 150%;
-  background-color: #f15757;
-  transition: 0.3s;
-  margin-right: 10em;
-}
-.button:hover {
-  transform: scale(1.2);
-  cursor: pointer;
-  background-color: #812c2c;
-  color: white;
-}

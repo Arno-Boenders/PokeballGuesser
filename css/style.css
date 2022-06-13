@@ -61,19 +61,3 @@ blockquote {
   text-align: center;
 }
 
-.button{
-  width: 70%;
-  border: none;
-  border-radius: 10px;
-  margin-bottom: 1em;
-  font-size: 110%;
-  background-color: #f15757;
-  transition: 0.3s;
-}
-.button:hover{
-  transform: scale(1.2);
-  cursor: pointer;
-  background-color: #812c2c;
-  color: white;
-}
-

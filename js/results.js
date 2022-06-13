@@ -88,11 +88,9 @@ function getData() {
     }
     var canvas = document.createElement("canvas");
     canvas.setAttribute("id", "myChart" + counter);
-    canvas.setAttribute("class", "chart");
 
     const element = document.querySelector("#main");
-    const child = document.querySelector("#p1");
-    element.insertBefore(canvas, child);
+    element.appendChild(canvas, element);
     //chart
     const ctx = document.getElementById("myChart" + counter).getContext("2d");
     const myChart = new Chart(ctx, {
@@ -138,3 +136,5 @@ getData();
 document.querySelector("#submit").addEventListener("click", function () { 
   window.location.href = "/index.html"
 })
+// document.querySelector("#pikachu").setAttribute("width", window.innerWidth);
+// document.querySelector("#pikachu").setAttribute("height", window.innerHeight);
