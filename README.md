@@ -5,8 +5,6 @@ PokeballGuesser is a little project that was made in the course Web Topics Advan
  ### How to play
  You can just clone the code and then run: npm install
  
- You need to change window.location.href on lines 263 and 317 to "/results.html"
- 
- after this you can just use: npm run dev
+ npm run dev to run it locally
  
  and you can play the game
