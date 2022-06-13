@@ -260,7 +260,7 @@ document.querySelector("#submit").addEventListener("click", function (e) {
   } else {
      setTimeout(function () {
        window.location.href =
-         "https://62a6f2966ba27a136c37f36e--pokemonguesser.netlify.app/results.html";
+         "/results.html";
      }, 1500);
     
   }
@@ -314,7 +314,7 @@ document.querySelector("#form").addEventListener("submit", function (e) {
   } else {
     setTimeout(function () {
       window.location.href =
-        "https://62a6f2966ba27a136c37f36e--pokemonguesser.netlify.app/results.html";
+        "/results.html";
     }, 1500);
   }
 
